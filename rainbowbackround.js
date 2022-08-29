@@ -58,5 +58,5 @@ function setRandomBackroundColour() {
             b =+ 1
         }
     }
-   document.body.style.backgroundColor = 'rgb(' + r + ',' + g + ',' + b + ')';
+   body{background-color: 'rgb(' + r + ',' + g + ',' + b + ')';}
 }
