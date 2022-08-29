@@ -1,4 +1,4 @@
-var r = 255
+var r = 255 // Fix me!
 var g = 255
 var b = 255
 var rand = 0
