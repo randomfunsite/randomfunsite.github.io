@@ -51,6 +51,7 @@ while (true) {
             b =+ 1
         }
     }
+    document.body.style.backgroundColor = 'rgb(' + r + ',' + g + ',' + b + ')';
 }
 
 function getRandomInt(max) {
