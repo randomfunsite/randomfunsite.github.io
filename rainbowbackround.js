@@ -4,7 +4,14 @@ var b = 255
 var rand = 0
 
 while (true) {
-    sleep(100)
+    setTimeout(setRandomBackroundColour(), 100)
+}
+
+function getRandomInt(max) {
+    return Math.floor(Math.random() * max);
+  }
+
+function setRandomBackroundColour() {
     rand = getRandomInt(3)
     if (rand == 0) {
         if (r == 255) {
@@ -51,9 +58,5 @@ while (true) {
             b =+ 1
         }
     }
-    document.body.style.backgroundColor = 'rgb(' + r + ',' + g + ',' + b + ')';
+   document.body.style.backgroundColor = 'rgb(' + r + ',' + g + ',' + b + ')';
 }
-
-function getRandomInt(max) {
-    return Math.floor(Math.random() * max);
-  }
